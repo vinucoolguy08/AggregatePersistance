@@ -1,0 +1,97 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\PNK013\\Downloads\\AggregatePersistence-master\\AggregatePersistence-master\\src\\Sales\\Sales.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\PNK013\\Downloads\\AggregatePersistence-master\\AggregatePersistence-master\\src\\Sales\\Sales.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PNK013\\Downloads\\AggregatePersistence-master\\AggregatePersistence-master\\src\\Sales\\Sales.csproj",
+        "projectName": "Sales",
+        "projectPath": "C:\\Users\\PNK013\\Downloads\\AggregatePersistence-master\\AggregatePersistence-master\\src\\Sales\\Sales.csproj",
+        "packagesPath": "C:\\Users\\PNK013\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PNK013\\Downloads\\AggregatePersistence-master\\AggregatePersistence-master\\src\\Sales\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PNK013\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\PNK013\\Downloads\\AggregatePersistence-master\\AggregatePersistence-master\\src\\Billing.Contracts\\Billing.Contracts.csproj": {
+                "projectPath": "C:\\Users\\PNK013\\Downloads\\AggregatePersistence-master\\AggregatePersistence-master\\src\\Billing.Contracts\\Billing.Contracts.csproj"
+              },
+              "C:\\Users\\PNK013\\Downloads\\AggregatePersistence-master\\AggregatePersistence-master\\src\\Sales.Contracts\\Sales.Contracts.csproj": {
+                "projectPath": "C:\\Users\\PNK013\\Downloads\\AggregatePersistence-master\\AggregatePersistence-master\\src\\Sales.Contracts\\Sales.Contracts.csproj"
+              },
+              "C:\\Users\\PNK013\\Downloads\\AggregatePersistence-master\\AggregatePersistence-master\\src\\Shipping.Contracts\\Shipping.Contracts.csproj": {
+                "projectPath": "C:\\Users\\PNK013\\Downloads\\AggregatePersistence-master\\AggregatePersistence-master\\src\\Shipping.Contracts\\Shipping.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "NServiceBus": {
+              "target": "Package",
+              "version": "[7.4.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
